@@ -24,4 +24,16 @@
         android:layout_marginEnd="70dp"
         android:layout_marginRight="70dp"
         android:text="CheckBox" />
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkBox"
+        android:layout_marginEnd="31dp"
+        android:layout_marginRight="31dp"
+        android:layout_marginTop="93dp"
+        android:layout_toLeftOf="@+id/checkBox"
+        android:layout_toStartOf="@+id/checkBox"
+        android:text="RadioButton" />
 </RelativeLayout>
